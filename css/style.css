@@ -1,0 +1,189 @@
+/* 
+font-family: 'JetBrains Mono', monospace; 
+*/
+
+:root{
+    --headerFooterColor: #0A0A0A;
+    --bodyColor: #242423;
+    --informationRectangleColor: #A5A4A6;
+    --informationRectangleShadowColor: #AA8CFF;
+    --textColor: #581EFF;
+    --textFont: 'JetBrains Mono', monospace;
+}
+
+*{box-sizing: border-box;}
+
+
+body{
+    border: 5px solid var(--textColor);
+}
+
+
+
+/* header */
+
+.contact, .site-header{
+    background-color: var(--headerFooterColor);
+}
+
+.name{
+    font-family: var(--textFont);
+    color: var(--textColor);
+}
+
+.top-nav-link{
+    font-family: var(--textFont);
+    color: var(--textColor);
+}
+
+.top-nav-link:hover{
+    color: var(--informationRectangleColor);
+}
+
+/* close header */
+
+/* main */
+
+.information-section, .about-section, .project-section{
+    /* background-image: url(StarlightBackground.jpg); */
+    background-color: var(--bodyColor);
+}
+
+.information-text{
+    color: var(--textColor);
+    font-family: var(--textFont);
+    font-size: calc(8px + 6 * ((100vw - 320px) / 680));
+}
+
+.text-rectangle{
+    background-color: var(--informationRectangleColor);
+    box-shadow: 5px 5px 5px var(--informationRectangleShadowColor);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#name{
+    padding-top: 20px;
+}
+
+#row3, .project-row, #row1{
+    padding-bottom: 30px;
+}
+
+#row1{
+    padding-top: 30px;
+}
+
+.detroix-site, .venedor-site, .bloom-site{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 2px var(--textColor);
+    font-size: 20px;
+}
+
+.detroix-site:hover, .venedor-site:hover, .bloom-site:hover{
+    background-color: #581EFF;
+}
+
+/* .venedor-site, .bloom-site{
+    color: var(--headerFooterColor);
+} */
+
+.detroix-source-code, .venedor-source-code, .bloom-source-code{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 5px var(--textColor);
+}
+
+.detroix-source-code:hover, .venedor-source-code:hover, .bloom-source-code:hover{
+    background-color: #581EFF;
+}
+
+/* .venedor-source-code, .bloom-source-code{
+    color: var(--headerFooterColor);
+} */
+
+.detroit-container, .aditii-container{
+    width: 50%;
+}
+
+.detroit-buttons, .venedor-buttons, .bloom-buttons, .aditii-buttons{
+    padding-top: 25px;
+}
+
+.project-btn1, .project-btn2{
+    text-decoration: none;
+    color: white;
+    /* text-shadow: 0px 0px 2px var(--textColor); */
+    background-color: var(--informationRectangleColor);
+    box-shadow: 0px 0px 5px var(--informationRectangleShadowColor);
+}
+
+.project-btn1:hover, .project-btn2:hover{
+    background-color: #581EFF;
+}
+
+.project-row1, .project-row2, .project-row3{
+    padding-top: 25px;
+}
+
+.project-row3{
+    padding-bottom: 25px;
+}
+
+.headshot{
+    width: 35%;
+}
+
+.tr1{
+    margin-top: 65px;
+}
+
+.tr2{
+    margin-top: 40px;
+}
+
+.section1{
+    height: 80vh;
+}
+
+#aboutRow1{
+    height: 100vh;
+}
+
+/* close main */
+
+/* footer */
+
+.name-link, .email-link, .phone-number-link{
+    text-decoration: none;
+    font-family: var(--textFont);
+    color: var(--textColor);
+}
+
+.name-link:hover, .email-link:hover, .phone-number-link:hover{
+    color: var(--informationRectangleColor);
+}
+
+.socials{
+    padding-top: 20px;
+}
+
+.social-btn{
+    color: var(--textColor);
+    font-size: 60px;
+    box-shadow: 0px 0px 5px 5px var(--informationRectangleShadowColor);
+}
+
+.social-btn:hover{
+    color: var(--informationRectangleColor);
+}
+
+.contact{
+    /* border-bottom: solid 2px var(--textColor); */
+}
+
+
+
+
+/* close footer */

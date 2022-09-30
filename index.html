@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header site-header">
+            <div class="container">
+                <div class="row">
+                    <h1 class="name d-flex justify-content-center">John May</h1>
+                </div>
+                <div class="row">
+                    <ul class="nav d-flex justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active top-nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active top-nav-link" aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active top-nav-link" aria-current="page" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active top-nav-link" aria-current="page" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active top-nav-link" aria-current="page" href="https://github.com/JohnMayIII" target="_blank">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main" id="main">
+        <div class="information-section">
+            <div class="container">
+                <section class="section section1">
+                    <div class="row information-row about-row" id="row1">
+                    <div class="col-md-6">
+                        <div class="row1-text">
+                            <div class="text-rectangle tr1">
+                                <h2 class="information-text-header"></h2>
+                                <p class="information-text">I am John Richard May, III, and I am a junior developer enrolled at the Mississippi Coding Academy. I plan to have a career as a videogame developer after I graduate from the University of Southern California.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row1-image d-flex justify-content-center">
+                            <div class="headshot">
+                                <img src="media/headshot.jpg"alt="placeholder" class="img-fluid placeholder-image" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <div class="row information-row project-row" id="project">
+                    <div class="col-md-6">
+                        <div class="project-rowcol">
+                            <div id="carouselProjects" class="carousel slide" data-bs-ride="false">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active c-item">
+                                        <a href="projects.html"><img src="media/detroit-preview.png"alt="placeholder" class="img-fluid placeholder-image d-block w-100" alt="detroix preview image"></a>
+                                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                        <!-- <div class="carousel-caption d-none d-md-block">
+                                            <h5><a href="https://johnmayiii.github.io/detroix/" target="_blank" class="detroix-site btn btn-dark">Detroit Site</a></h5>
+                                            <p><a href="https://github.com/JohnMayIII/detroix" target="_blank" class="detroix-source-code btn btn-dark">Detroix Source Code</a></p>
+                                        </div> -->
+                                    </div>
+                                    <div class="carousel-item c-item">
+                                        <a href="projects.html"><img src="media/venedor-preview.png"alt="placeholder" class="img-fluid placeholder-image d-block w-100" alt=""></a>
+                                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                        <!-- <div class="carousel-caption d-none d-md-block">
+                                            <h5><a href="https://johnmayiii.github.io/venedor/" target="_blank" class="venedor-site btn btn-dark">Venedor Site</a></h5>
+                                            <p><a href="https://github.com/JohnMayIII/venedor" target="_blank" class="venedor-source-code btn btn-dark">Venedor Source Code</a></p>
+                                        </div> -->
+                                    </div>
+                                    <div class="carousel-item c-item">
+                                        <a href="projects.html"><img src="media/bloom-preview.png"alt="placeholder" class="img-fluid placeholder-image d-block w-100" alt=""></a>
+                                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                        <!-- <div class="carousel-caption d-none d-md-block">
+                                            <h5><a href="https://johnmayiii.github.io/bootstrapBloom/" target="_blank" class="bloom-site btn btn-dark">Bloom Site</a></h5>
+                                            <p><a href="https://github.com/JohnMayIII/bootstrapBloom" target="_blank" class="bloom-source-code btn btn-dark">Bloom Source Code</a></p>
+                                        </div> -->
+                                    </div>
+                                    <div class="carousel-item c-item">
+                                        <a href="projects.html"><img src="media/aditii-preview.png"alt="placeholder" class="img-fluid placeholder-image d-block w-100" alt=""></a>
+                                        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                        <!-- <div class="carousel-caption d-none d-md-block">
+                                            <h5><a href="https://johnmayiii.github.io/aditii/" target="_blank" class="aditii-site btn btn-dark">Aditii Site</a></h5>
+                                            <p><a href="https://github.com/JohnMayIII/aditii" target="_blank" class="aditii-source-code btn btn-dark">Aditii Source Code</a></p>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjects" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselProjects" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- <div class="row2-image d-flex justify-content-center">
+                            <img src="https://via.placeholder.com/200x200"alt="placeholder" class="img-fluid placeholder-image" />
+                        </div> -->
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row2-text">
+                            <div class="text-rectangle tr2 d-none d-md-block">
+                                <h2 class="information-text-header"></h2>
+                                <p class="information-text">The carousel on the left shows previews of projects that I have done. These projects include recreations of the Detroix, Bloom, and Aditii templates as well as a Venedor template recreated with bootstrap. Click on the carousel to be taken to projects page, or click the "Projects" button from the navigation bar at the top of the page.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row information-row" id="row3">
+                    <div class="col-md-6">
+                        <div class="row3-text">
+                            <div class="text-rectangle">
+                                <h2 class="information-text-header"></h2>
+                                <p class="information-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos quos aut beatae est odio numquam, consequuntur architecto itaque deserunt aperiam ab accusamus molestias iste saepe ratione eum dolorem quibusdam sapiente? Perferendis similique inventore nostrum beatae, quam officiis tenetur vero quasi modi voluptatem! Tempore sed delectus nostrum rerum? Debitis, rerum perferendis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row3-image d-flex justify-content-center">
+                            <img src="https://via.placeholder.com/200x200"alt="placeholder" class="img-fluid placeholder-image" />
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="row information-row" id="row4">
+                    <div class="col-md-6">
+                        <div class="row4-image d-flex justify-content-center">
+                            <img src="https://via.placeholder.com/200x200"alt="placeholder" class="img-fluid placeholder-image" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row4-text">
+                            <div class="text-rectangle">
+                                <h2 class="information-text-header"></h2>
+                                <p class="information-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos quos aut beatae est odio numquam, consequuntur architecto itaque deserunt aperiam ab accusamus molestias iste saepe ratione eum dolorem quibusdam sapiente? Perferendis similique inventore nostrum beatae, quam officiis tenetur vero quasi modi voluptatem! Tempore sed delectus nostrum rerum? Debitis, rerum perferendis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="first-contact-part">
+                            <div class="footer-name" id="name">
+                                <p class="name-part"><a href="#link" class="name-link">John Richard May III</a></p>
+                            </div>
+                            <div class="email-part" id="email">
+                                <p class="email"><a href="mailto:johnrmayiii@gmail.com" class="email-link">johnrmayiii@gmail.com</a></p>
+                            </div>
+                            <div class="phone-number-part" id="phone-number">
+                                <p class="phone-number"><a href="tel:6019415745" class="phone-number-link">601-941-5745</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="socials d-flex justify-content-between">
+                            <a href="https://twitter.com/maydayboy" target="_blank" class="btn social-btn"><i class="bi bi-twitter"></i><span class="visually-hidden">twitter</span></a>
+                            <a href="#link" target="_blank" class="btn social-btn"><i class="bi bi-linkedin"></i><span class="visually-hidden">linked in</span></a>
+                            <a href="https://github.com/JohnMayIII" target="_blank" class="btn social-btn"><i class="bi bi-github"></i><span class="visually-hidden">github</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
