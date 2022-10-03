@@ -131,16 +131,45 @@ body{
     padding-bottom: 25px;
 }
 
+.project-rowcol{
+    padding: 30px;
+}
+
+@media(min-width:768px){
+    .project-rowcol{
+        padding: 0;
+    }
+
+}
+
+@media(max-width:768px){
+    .information-text{
+        font-size: 15px;
+    }
+    .tr1{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+
 .headshot{
-    width: 35%;
+    width: 40%;
+}
+
+.second-headshot{
+    width: 30%;
 }
 
 .tr1{
-    margin-top: 65px;
+    margin-top: 110px;
 }
 
 .tr2{
     margin-top: 40px;
+}
+
+.tr3{
+    margin-top: 60px;
 }
 
 .section1{
@@ -149,6 +178,10 @@ body{
 
 #aboutRow1{
     height: 100vh;
+}
+
+#project{
+    height: 60vh;
 }
 
 /* close main */
