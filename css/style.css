@@ -142,6 +142,10 @@ body{
 
 }
 
+#project{
+    height: 60vh;
+}
+
 @media(max-width:768px){
     .information-text{
         font-size: 15px;
@@ -149,6 +153,9 @@ body{
     .tr1{
         margin-left: 8px;
         margin-right: 8px;
+    }
+    #project{
+        height: 30vh;
     }
 }
 
@@ -180,9 +187,43 @@ body{
     height: 100vh;
 }
 
-#project{
-    height: 60vh;
+.about-img1{
+    width: 72%;
 }
+
+.about-img2{
+    width: 60%;
+}
+
+.about-img3{
+    width: 60%;
+}
+
+#about-row1{
+    padding-top: 30px;
+    height: 80vh;
+}
+
+#about-row2{
+    height: 80vh;
+}
+
+#about-row3{
+    height: 80vh;
+}
+
+.abtr1{
+    margin-top: 60px;
+}
+
+.abtr2{
+    margin-top: 110px;
+}
+
+.abtr3{
+    margin-top: 70px;
+}
+
 
 /* close main */
 
