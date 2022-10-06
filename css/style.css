@@ -157,6 +157,34 @@ body{
     #project{
         height: 30vh;
     }
+    .about-img3{
+        margin-top: 200px;
+        padding-top: 100px;
+    }
+    .about-section{
+        padding-bottom: 200px;
+    }
+    .about-img2{
+        padding-top: 100px;
+    }
+    .socials{
+        padding: 25px;
+    }
+    .first-contact-part{
+        text-align: center;
+    }
+}
+
+@media(min-width:768px) and (max-width:1024px){
+    .about-img1{
+        padding-top: 28px;
+    }
+    .about-img2{
+        padding-top: 50px;
+    }
+    .about-img3{
+        padding-top: 40px;
+    }
 }
 
 .headshot{
@@ -221,7 +249,7 @@ body{
 }
 
 .abtr3{
-    margin-top: 70px;
+    margin-top: 120px;
 }
 
 
