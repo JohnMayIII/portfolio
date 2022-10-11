@@ -62,6 +62,11 @@ body{
     padding: 5px;
 }
 
+.placeholder-image, .project-preview{
+    box-shadow: 5px 5px 5px var(--informationRectangleShadowColor);
+    border-radius: 5px;
+}
+
 #name{
     padding-top: 20px;
 }
@@ -103,11 +108,11 @@ body{
     color: var(--headerFooterColor);
 } */
 
-.detroit-container, .aditii-container{
+.detroix-container, .aditii-container{
     width: 50%;
 }
 
-.detroit-buttons, .venedor-buttons, .bloom-buttons, .aditii-buttons{
+.detroix-buttons, .venedor-buttons, .bloom-buttons, .aditii-buttons{
     padding-top: 25px;
 }
 
@@ -135,6 +140,7 @@ body{
     padding: 30px;
 }
 
+
 @media(min-width:768px){
     .project-rowcol{
         padding: 0;
@@ -142,10 +148,7 @@ body{
 
 }
 
-#project{
-    height: 60vh;
-}
-
+/* mobile */
 @media(max-width:768px){
     .information-text{
         font-size: 15px;
@@ -153,9 +156,6 @@ body{
     .tr1{
         margin-left: 8px;
         margin-right: 8px;
-    }
-    #project{
-        height: 30vh;
     }
     .about-img3{
         margin-top: 200px;
@@ -173,6 +173,13 @@ body{
     .first-contact-part{
         text-align: center;
     }
+    .detroix-container, .aditii-container{
+        width: 100%;
+        height: 40vh;
+    }
+    .venedor-container, .bloom-container{
+        height: 40vh;
+    }
 }
 
 @media(min-width:768px) and (max-width:1024px){
@@ -184,6 +191,12 @@ body{
     }
     .about-img3{
         padding-top: 40px;
+    }
+    .headshot{
+        padding-top: 50px;
+    }
+    .project-rowcol{
+        padding-top: 20px;
     }
 }
 
