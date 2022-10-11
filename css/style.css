@@ -149,7 +149,7 @@ body{
 }
 
 /* mobile */
-@media(max-width:768px){
+@media(min-width:426px) and (max-width:768px){
     .information-text{
         font-size: 15px;
     }
@@ -158,14 +158,18 @@ body{
         margin-right: 8px;
     }
     .about-img3{
-        margin-top: 200px;
+        margin-top: 50px;
         padding-top: 100px;
     }
     .about-section{
         padding-bottom: 200px;
     }
     .about-img2{
+        margin-top: 100px;
         padding-top: 100px;
+    }
+    .about-img1{
+        margin-top: 90px;
     }
     .socials{
         padding: 25px;
@@ -175,10 +179,52 @@ body{
     }
     .detroix-container, .aditii-container{
         width: 100%;
-        height: 40vh;
+        height: 80vh;
     }
     .venedor-container, .bloom-container{
-        height: 40vh;
+        height: 80vh;
+    }
+    .headshot{
+        margin-top: 55px;
+    }
+    .project-rowcol{
+        margin-top: 70px;
+    }
+
+}
+
+@media (max-width:426px){
+    .socials{
+        padding: 25px;
+    }
+    .first-contact-part{
+        text-align: center;
+    }
+    .tr1{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .information-text{
+        font-size: 15px;
+    }
+    .project-rowcol{
+        margin-top: 100px;
+    }
+    .about-img2{
+        margin-top: 180px;
+    }
+    .about-section{
+        height: 2200px;
+    }
+    .about-img3{
+        margin-top: 500px;
+    }
+    .detroix-container, .aditii-container{
+        width: 100%;
+        height: 80vh;
+    }
+    .bloom-container, .venedor-container{
+        height: 80vh;
     }
 }
 
